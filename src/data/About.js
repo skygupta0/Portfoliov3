@@ -18,7 +18,10 @@ export const about = {
 		linkedin: "https://www.linkedin.com/in/skygupta0",
 		github: "https://github.com/skygupta0",
 		instagram: "https://www.instagram.com/akash.gupta",
+		// twitter: "https://www.twitter.com/akash.gupta",
 	},
 	resumeLink:
 		"https://firebasestorage.googleapis.com/v0/b/akashs-portfolio.appspot.com/o/Akash%20Rajesh%20Gupta.pdf?alt=media&token=361168f2-05eb-4039-91b6-b827c27c7457",
+
+	hostedUrl: "https://akashgupta.netlify.app/",
 };
