@@ -21,7 +21,7 @@ export const about = {
 		// twitter: "https://www.twitter.com/akash.gupta",
 	},
 	resumeLink:
-		"https://firebasestorage.googleapis.com/v0/b/akashs-portfolio.appspot.com/o/Akash%20Rajesh%20Gupta.pdf?alt=media&token=d07cc578-fb96-49b4-a296-b52d1f79caaa",
+		"https://firebasestorage.googleapis.com/v0/b/akashs-portfolio.appspot.com/o/Akash%20Rajesh%20Gupta.pdf?alt=media&token=f5b88dc0-f934-4a42-a0b0-844e793947d0",
 
-	hostedUrl: "https://akashgupta.netlify.app/",
+	hostedUrl: "https://akashgupta.vercel.app",
 };
