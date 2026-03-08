@@ -1,43 +1,37 @@
 export const experience = [
 	{
-		companyName: "Accenture",
+		companyName: "Remiges Technology Pvt. Ltd.",
 		companyLogo:
-			"https://res.cloudinary.com/akash/image/upload/v1735736179/Portfolio/exp/359453892_597778089149141_4521339302675636379_n_khryjs.jpg",
-		jobRole: "ASE",
-		duration: "Aug 2024 - Present",
-		techstack: ["Harness", "Artifactory", "Snowflake", "AWS", "EKS", "Apache Nifi", "Apache Airflow", "Bash scripting", "Linux", "Git", "PL/SQL", "Oracle Apex", "Python"],
+			"https://res.cloudinary.com/akash/image/upload/v1696175985/Portfolio/exp/Untitled_design_6_d8u4nv.png", // Keeping a generic logo placeholder, can be updated later
+		jobRole: "React Developer — (CERSAI Project, Protean eGov)",
+		duration: "Jan 2026 – Present",
+		techstack: ["React 19", "TypeScript", "Vite", "Material UI (MUI)"],
 		description: [
-			"Designed, implemented, and optimised Apache NiFi data pipelines, integrating sources such as Amazon S3 and Salesforce, transforming data for analytical consumption in Snowflake.",
-			"Developed and automated ETL workflows using SQL, Python, Apache NiFi, Snowflake, and Apache Airflow, reducing job completion time and improving workflow efficiency.",
-			"Contributed to a cloud migration project, moving mainframe processes to AWS using Kubernetes, Harness, JFrog, and Bash, modernising infrastructure and streamlining deployments.",
-			"Acted as a client-facing developer, collaborating with stakeholders to gather requirements and deliver tailored data-driven solutions.",
-			"Gained strong database and backend programming skills through training in Oracle PL/SQL, Oracle APEX, Snowflake, and Python.",
+			"Architecting and building the frontend for the CKYCRR 2.0 Portal from scratch using React 19, TypeScript, and Vite.",
+			"Engineered a configuration-driven dynamic form system rendering UI screens based on JSON configurations, significantly reducing development time for new flows.",
+			"Led the migration of registration and status-tracking workflows from legacy CMS to a modern React architecture.",
+			"Implemented complex, interconnected form validations for user profiles, ensuring stringent cross-field checks such as matching GSTIN with PAN.",
+			"Enhanced administrative portal security by refactoring permission checks for bulk operations to rely on robust group-level memberships.",
+			"Resolved critical UX issues, including cross-tab OTP timer synchronization and secure file upload previews.",
+			"Integrated data masking for PII (Aadhaar, PAN) and automated input formatting.",
+			"Extensively customized Material UI (MUI) components to resolve styling inconsistencies and improve structural aesthetics.",
 		],
 	},
 	{
-		companyName: "Stratmark Consulting",
+		companyName: "Remiges Technology Pvt. Ltd.",
 		companyLogo:
-			"https://res.cloudinary.com/akash/image/upload/v1696175985/Portfolio/exp/Untitled_design_6_d8u4nv.png",
-		jobRole: "Freelance",
-		duration: "Aug 2023 - Aug 2024",
-		techstack: ["MERN", "PWA", "AWS", "Tailwind CSS", "MUI", "Redux Toolkit"],
+			"https://res.cloudinary.com/akash/image/upload/v1696175985/Portfolio/exp/Untitled_design_6_d8u4nv.png", // Keeping the same generic placeholder for the same company
+		jobRole: "Angular Developer",
+		duration: "April 2024 – December 2025",
+		techstack: ["Angular", "RxJS", "Reactive Forms", "TypeScript"],
 		description: [
-			"Developed high-quality and fully-functional Web App and Web App Mockup as per the requirements.",
-			"Worked closely with the client to gather requirements, provide updates, and address feedback throughout the project.",
-			"Ensured the web app was fully responsive, making it accessible on various devices.",
-			"Leveraged GitHub Actions to define and automate CI/CD workflows directly within the GitHub repository.",
-		],
-	},
-	{
-		companyName: "Codebell Technologies",
-		companyLogo:
-			"https://res.cloudinary.com/akash/image/upload/v1694527181/Portfolio/exp/1686382464747_vc7glk.jpg",
-		jobRole: "Intern",
-		duration: "APR 2023 - MAY 2023",
-		techstack: ["HTML5", "Cascading Style Sheets (CSS)", "JavaScript"],
-		description: [
-			"Implemented day to day design changes from Figma to live website.",
-			"Developed high-quality, responsive, and userfriendly website.",
+			"Contributed to a large-scale KYC Registration Platform (NDML KRA) to streamline regulatory onboarding workflows.",
+			"Developed an advanced multi-step form system leveraging Angular's Reactive Forms to manage complex user registration logic.",
+			"Utilized RxJS observables to persist form drafts locally, mitigating data loss during session expirations or unexpected exits.",
+			"Designed and implemented a library of reusable UI components, optimizing the development lifecycle for new forms.",
+			"Engineered a generic, highly-configurable filtering tool integrated across diverse data tables within the admin dashboard.",
+			"Optimized application performance and load times by implementing lazy loading modules, OnPush change detection, and specialized HTTP interceptors.",
+			"Collaborated closely with backend teams to negotiate API contracts and ensure robust client-side error handling.",
 		],
 	},
 ];

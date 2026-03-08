@@ -25,6 +25,24 @@ export const skills = [
 	},
 	{
 		skillIcon:
+			"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg",
+		skillName: "Angular",
+		major: true,
+	},
+	{
+		skillIcon:
+			"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+		skillName: "TypeScript",
+		major: true,
+	},
+	{
+		skillIcon:
+			"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rxjs/rxjs-original.svg",
+		skillName: "RxJS",
+		major: true,
+	},
+	{
+		skillIcon:
 			"https://res.cloudinary.com/akash/image/upload/v1698643899/Portfolio/skills/icons8-nodejs_lmjqiz.svg",
 		skillName: "NodeJs",
 		major: true,
@@ -49,31 +67,8 @@ export const skills = [
 	},
 	{
 		skillIcon:
-			"https://res.cloudinary.com/akash/image/upload/v1746264303/Portfolio/skills/shopify.png",
-		skillName: "Shopify",
-		major: true,
-	},
-	{
-		skillIcon:
 			"https://res.cloudinary.com/akash/image/upload/v1674668115/Portfolio/skills/firebase_dwkgf4.png",
 		skillName: "Firebase",
-		major: true,
-	},
-	{
-		skillIcon:
-			"https://res.cloudinary.com/akash/image/upload/v1698645002/Portfolio/skills/svgexport-7_vhqxeb.svg",
-		skillName: "AWS Ec2",
-		major: true,
-	},
-	{
-		skillIcon:
-			"https://res.cloudinary.com/akash/image/upload/v1698644998/Portfolio/skills/svgexport-9_qst9qj.svg",
-		skillName: "Ec2 Auto Scaling",
-	},
-	{
-		skillIcon:
-			"https://res.cloudinary.com/akash/image/upload/v1714555747/Portfolio/skills/svgexport-9_kgzgp8.svg",
-		skillName: "AWS S3",
 		major: true,
 	},
 	{
@@ -103,11 +98,6 @@ export const skills = [
 		skillIcon:
 			"https://res.cloudinary.com/akash/image/upload/v1677969348/Portfolio/skills/sass.png",
 		skillName: "Sass",
-	},
-	{
-		skillIcon:
-			"https://res.cloudinary.com/akash/image/upload/v1674668116/Portfolio/skills/python_drwvw3.svg",
-		skillName: "Python",
 	},
 	{
 		skillIcon:

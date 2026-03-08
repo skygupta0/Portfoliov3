@@ -1,39 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
 
 /* Importing Tailwind CSS base styles, components, and utilities */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Importing Fonts */
-@font-face {
-	font-family: "Catamaran";
-	src: url("/fonts/Catamaran-VariableFont_wght.ttf") format("truetype");
-}
+@layer base {
+	html,
+	body,
+	#root,
+	:root {
+		@apply bg-premium-bg text-premium-textMain font-sans;
+	}
+	
+	.app {
+		@apply w-full min-h-screen overflow-x-hidden;
+	}
 
-@font-face {
-	font-family: "Plus Jakarta Sans";
-	src: url("/fonts/PlusJakartaSans-VariableFont_wght.ttf") format("truetype");
-}
-
-/* Applying global styles to root elements */
-html,
-body,
-#root,
-:root,
-.app {
-	width: 100dvw;
-	min-height: 100vh;
-	overflow-x: hidden;
-	font-family: "Plus Jakarta Sans";
-}
-
-.myfont {
-	font-family: "Plus Jakarta Sans";
+	h1, h2, h3, h4, h5, h6 {
+		@apply font-display tracking-tight text-white;
+	}
 }
 
 .heading {
-	font-family: "Catamaran", sans-serif;
+	font-family: "Outfit", sans-serif;
 }
 
 @media screen and (max-width: 768px) {

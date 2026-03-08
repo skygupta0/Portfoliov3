@@ -43,7 +43,7 @@ export const testimonials = [
 		occupation:
 			"Web Lead @SpectoV || GSSOC'24 Contributor || MERN Dev || Full Stack Dev || VIT 2025",
 		feedback:
-			"First of all, Akash's behavior is incredibly respectful and helpful. His 'Master the ASE: Accenture Interview Secrets' content really cleared up most of my doubts. I highly recommend this resource to anyone looking to prepare for their Accenture interviews.",
+			"First of all, Akash's behavior is incredibly respectful and helpful. His 'Master the ASE: Accenture Interview Secrets' content really cleared up most of my doubts. I highly recommend this resource to anyone looking to prepare for their Remiges interviews.",
 	},
 	{
 		name: "Vikram Mali",

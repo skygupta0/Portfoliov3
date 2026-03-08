@@ -104,47 +104,49 @@ const About = () => {
 
 			</div>
 
-			<div className="sm:text-base xl:text-lg lg:w-2/3 xl:w-1/2">
-				<h2 className="hidden text-3xl font-extrabold lg:block xl:text-5xl heading">{about.firstName + " " + about.lastName}</h2>
+			<div className="sm:text-base xl:text-lg lg:w-2/3 xl:w-1/2 text-premium-textMuted">
+				<h2 className="hidden text-3xl font-extrabold lg:block xl:text-5xl heading text-white mb-6 tracking-tight">{about.firstName + " " + about.lastName}</h2>
 
-				<p className="my-3">
-					I'm a <span className="font-semibold">graduate</span> and a self-taught web developer with two years of professional experience as a freelancer. I bring a strong skill set and extensive experience in designing and maintaining visually appealing, user-friendly websites and web applications. My expertise spans a range of web development technologies, including{" "}
-					<span className="font-semibold">
-						HTML, CSS, JavaScript, MERN stack, Tailwind CSS</span>, and{" "}
-
-					<Link
-						tabIndex={4}
-						to="skills"
-						spy={true}
-						smooth={true}
-						className="py-1.5 lg:py-0.5 rounded-lg lg:rounded-full duration-300 cursor-pointer group"
-					>
-						<span className="text-sky-500 bg-left-bottom bg-gradient-to-r from-sky-100 to-sky-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out pb-0.5">
-							more
+				<div className="bg-premium-surface p-6 sm:p-8 rounded-2xl border border-premium-border shadow-lg relative overflow-hidden group">
+					<div className="absolute top-0 right-0 w-32 h-32 bg-premium-accent/5 rounded-full filter blur-[50px] group-hover:bg-premium-accent/10 transition-colors duration-500"></div>
+					<p className="my-3 text-lg leading-relaxed relative z-10">
+						I'm a <span className="font-semibold text-premium-textMain">Front-End Developer</span> with over 2 years of experience building web applications for the FinTech and KYC/CKYC domains. I specialize in{" "}
+						<span className="font-semibold text-premium-primary">
+							React (with TypeScript and Vite) and Angular
 						</span>
-					</Link>
-					.
-				</p>
+						. I enjoy solving complex UI logic, building reusable components, and tackling large forms with tricky validation rules.
+						<Link
+							tabIndex={4}
+							to="skills"
+							spy={true}
+							smooth={true}
+							className="py-1.5 lg:py-0.5 rounded-lg lg:rounded-full duration-300 cursor-pointer inline-block ml-1"
+						>
+							<span className="text-premium-accent bg-left-bottom bg-gradient-to-r from-premium-accent/20 to-premium-accent bg-[length:0%_2px] bg-no-repeat hover:bg-[length:100%_2px] transition-all duration-500 ease-out pb-0.5 font-medium">
+								See more skills
+							</span>
+						</Link>
+						.
+					</p>
 
-				<p>
-					Overall, I guarantee the highest level of professionalism, technical
-					proficiency, and client satisfaction in every aspect of web
-					development.
-				</p>
+					<p className="text-lg leading-relaxed relative z-10 mt-4 text-premium-textMuted/80">
+						I have hands-on experience moving legacy pages to modern frameworks and working closely with backend teams to build great user experiences, ensuring the highest level of professionalism, technical proficiency, and client satisfaction in every aspect of web development.
+					</p>
+				</div>
 
-				<div className="flex gap-4">
+				<div className="flex flex-col sm:flex-row gap-4 mt-8">
 					<RouterLink
 						tabIndex={5}
 						to={about.resumeLink} target="_blank"
-						className="flex items-center my-6 gap-2 px-5 py-1.5 rounded-full text-emerald-700 font-medium text-base duration-500 group w-max focus:outline-none focus:outline-slate-500 ring-1 ring-emerald-700 hover:bg-emerald-700 hover:text-white">
-						Resume <CgFileDocument />
+						className="flex items-center justify-center gap-2 px-6 py-2.5 rounded-full text-premium-bg bg-white font-semibold text-base duration-300 w-full sm:w-max focus:outline-none hover:bg-premium-primary hover:text-white hover:shadow-[0_0_15px_rgba(56,189,248,0.4)]">
+						Resume <CgFileDocument className="text-xl" />
 					</RouterLink>
 
 					<RouterLink
 						tabIndex={5}
-						to="https://topmate.io/akash/1136121" target="_blank"
-						className="flex items-center my-6 gap-2 px-5 py-1.5 rounded-full text-sky-700 font-medium text-base duration-500 group w-max focus:outline-none focus:outline-slate-500 ring-1 ring-sky-600 hover:bg-sky-600 hover:text-white">
-						Book 1:1 Call <IoCallOutline />
+						to="https://topmate.io/akash_gupta_ai" target="_blank"
+						className="flex items-center justify-center gap-2 px-6 py-2.5 rounded-full text-premium-textMain border border-premium-border bg-premium-surface font-semibold text-base duration-300 w-full sm:w-max focus:outline-none hover:border-premium-accent hover:text-premium-accent hover:bg-premium-accent/5">
+						Book 1:1 Call <IoCallOutline className="text-xl" />
 					</RouterLink>
 				</div>
 			</div>

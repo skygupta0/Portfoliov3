@@ -95,59 +95,59 @@ const ProjectCard = ({ project, styles, initials }) => {
 						onMouseOver={() => screenTouch && setOpen(true)}
 						className="relative flex flex-col justify-center mx-auto overflow-hidden bg-gray-100 rounded-2xl group sm:w-2/3 lg:w-full"
 					>
-						<div className="z-10 flex items-center h-full px-6 py-2 w-86">
+						<div className="z-10 flex items-center h-full px-6 py-2 w-86 mt-4">
 							<div>
 								<img
-									className="object-contain w-full h-full m-auto rounded-xl drop-shadow-md"
+									className="object-contain w-full h-full m-auto rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.5)] border border-premium-border"
 									src={project.ImageUrl}
 									alt={project.Title + " image"}
 								/>
 							</div>
 						</div>
 
-						<div className="flex flex-col px-6 pb-4 h-1/2">
-							<p className="mb-2 text-base font-bold text-black">{project.Title}</p>
+						<div className="flex flex-col px-6 pb-6 pt-2 h-1/2 z-10 text-premium-textMuted bg-premium-surface/90 backdrop-blur-sm rounded-b-2xl">
+							<p className="mb-2 text-lg font-bold text-white tracking-wide">{project.Title}</p>
 
-							<div>
+							<div className="text-sm space-y-1.5">
 								<p>
-									<span className="font-bold">Techstack</span> - {project.Techstack}
+									<span className="font-semibold text-premium-primary">Techstack</span>: {project.Techstack}
 								</p>
 								<p>
-									<span className="font-bold">Libraries</span> - {project.Library}
+									<span className="font-semibold text-premium-primary">Libraries</span>: {project.Library}
 								</p>
 							</div>
 						</div>
 
 						<div
 							className={`${open ? "translate-y-0 opacity-100 z-20" : "translate-y-full opacity-0 -z-10"
-								} absolute flex top-0 h-full w-full my-auto bottom-0 right-0 bg-sky-900/70 duration-700 rounded-2xl`}
+								} absolute flex top-0 h-full w-full my-auto bottom-0 right-0 bg-premium-bg/80 backdrop-blur-md duration-500 rounded-2xl`}
 						>
 							<div
-								className="flex justify-between gap-6 m-auto text-3xl w-max h-max">
+								className="flex justify-center items-center gap-6 m-auto text-2xl w-full h-full">
 								<Link
 									to={project.Github}
-									className="p-2 duration-500 rounded-full text-white hover:rotate-6 bg-black/50"
+									className="p-3 duration-300 rounded-full text-white hover:text-premium-textMain hover:scale-110 bg-premium-surface border border-premium-border hover:border-white shadow-lg"
 								>
 									<AiFillGithub />
 								</Link>
 
 								<Link
 									to={project.ProjectLink}
-									className="p-2 duration-500 rounded-full text-white hover:rotate-6 bg-sky-500/70"
+									className="p-3 duration-300 rounded-full text-premium-bg bg-premium-secondary hover:bg-premium-primary hover:scale-110 shadow-[0_0_15px_rgba(56,189,248,0.5)]"
 								>
 									<AiOutlineLink />
 								</Link>
 
 								<button
 									onClick={() => setOpen(false)}
-									className="p-2 duration-500 rounded-full bg-rose-500/70 hover:rotate-90 text-white"
+									className="p-3 duration-300 rounded-full bg-rose-500/20 text-rose-400 border border-rose-500/50 hover:bg-rose-500 hover:text-white hover:rotate-90"
 								>
 									<IoIosClose />
 								</button>
 							</div>
 						</div>
 
-						<div className={`top-0 absolute w-full h-1/2 bg-gradient-to-br from-gray-700 via-gray-900 to-black`} />
+						<div className={`top-0 absolute w-full h-1/2 bg-gradient-to-br from-premium-surface via-premium-bg to-black opacity-80`} />
 					</div>
 			}
 		</>

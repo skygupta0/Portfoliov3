@@ -8,15 +8,15 @@ const Skills = () => {
 	const isInView = useInView(ref, { once: true });
 
 	return (
-		<section ref={ref} name="skills" className="flex flex-col items-center justify-center text-center py-28 rounded-3xl sm:text-start">
+		<section ref={ref} name="skills" className="flex flex-col items-center justify-center text-center py-28 rounded-3xl sm:text-start text-premium-textMuted">
 			<div className="flex flex-col items-center mx-auto">
-				<h2 className="my-2 text-4xl font-bold heading">My Skills</h2>
-				<p>
-					Tiles in{" "}
-					<span className="text-sky-500 bg-sky-100/70 px-1.5 rounded-lg">
-						blue
+				<h2 className="my-2 text-4xl font-bold heading text-white tracking-tight">Technical Arsenal</h2>
+				<p className="mt-2 text-premium-textMuted/80 text-center max-w-lg">
+					Technologies marked with a{" "}
+					<span className="text-premium-primary font-medium px-2 py-0.5 rounded-md bg-premium-primary/10 border border-premium-primary/20">
+						glow
 					</span>{" "}
-					are some of my major skills.
+					represent my core expertise.
 				</p>
 			</div>
 
