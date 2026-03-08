@@ -1,13 +1,13 @@
 import { BiMailSend } from "react-icons/bi";
 import { CgMenuRightAlt } from "react-icons/cg";
 import { CgMenuRight } from "react-icons/cg";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom"
 import { about } from "../data/About";
 import { motion } from "framer-motion"
 
-const Header = () => {
+const Header: React.FC = () => {
 	const [openSidebar, setOpenSidebar] = useState(false)
 	const [scrollYVal, setScrollYVal] = useState(window.scrollY);
 

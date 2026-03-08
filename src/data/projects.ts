@@ -1,4 +1,6 @@
-export const projects = [
+import type { Project } from "../types";
+
+export const projects: Project[] = [
 	{
 		Github: "https://github.com/skygupta0/todo-list",
 		ImageUrl:

@@ -1,9 +1,8 @@
-import React from "react";
 import { Link } from "react-scroll";
 import { about } from "../../../data/About";
 import { motion } from "framer-motion";
 
-const Home = () => {
+const Home: React.FC = () => {
 	const animationPlayed = sessionStorage.getItem('animationPlayed') || false;
 
 	return (

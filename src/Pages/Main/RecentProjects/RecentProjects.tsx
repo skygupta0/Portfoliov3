@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { Link } from "react-router-dom";
 import { projects } from "../../../data/projects";
 import ProjectCard from "../../../Global/ProjectCard";
@@ -6,8 +6,8 @@ import memoji from "../../../data/assets/projMemoji.svg";
 import { useInView } from "framer-motion";
 import { about } from "../../../data/About";
 
-const RecentProjects = () => {
-	const ref = useRef(null);
+const RecentProjects: React.FC = () => {
+	const ref = useRef<HTMLElement>(null);
 	const isInView = useInView(ref, { once: true });
 
 	return (

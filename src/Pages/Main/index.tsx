@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import Header from '../../Global/Header'
 import Home from './Home/Home'
 import About from './About/About'
@@ -7,7 +7,7 @@ import RecentProjects from './RecentProjects/RecentProjects'
 import Experience from './Experience/Experience'
 import Testimonials from './Testimonials/Testimonials'
 
-const Main = () => {
+const Main: React.FC = () => {
     const animationPlayed = sessionStorage.getItem('animationPlayed') || false;
 
     useEffect(() => {

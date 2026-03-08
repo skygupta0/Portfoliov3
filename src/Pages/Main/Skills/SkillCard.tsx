@@ -1,6 +1,12 @@
-import React from "react";
+interface SkillCardProps {
+	skillIcon: string;
+	major?: boolean;
+	skillName: string;
+	isInView: boolean;
+	num: number;
+}
 
-const SkillCard = ({ skillIcon, major, skillName, isInView, num }) => {
+const SkillCard: React.FC<SkillCardProps> = ({ skillIcon, major, skillName, isInView, num }) => {
 	return (
 		<div
 			style={{

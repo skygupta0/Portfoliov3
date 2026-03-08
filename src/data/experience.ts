@@ -1,4 +1,6 @@
-export const experience = [
+import type { Experience } from "../types";
+
+export const experience: Experience[] = [
 	{
 		companyName: "Remiges Technology Pvt. Ltd.",
 		companyLogo:

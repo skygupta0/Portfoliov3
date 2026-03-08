@@ -1,7 +1,11 @@
-import React from "react";
 import { BsQuote } from "react-icons/bs";
+import type { Testimonial } from "../../../../types";
 
-const TestimonialCard = ({ testimonial }) => {
+interface TestimonialCardProps {
+	testimonial: Testimonial;
+}
+
+const TestimonialCard: React.FC<TestimonialCardProps> = ({ testimonial }) => {
 	return (
 		<div className="flex flex-col items-center h-full p-4 mx-auto my-auto overflow-hidden text-center ring-0 ring-gray-200 sm:w-96 rounded-3xl bg-slate-100 bg-gradient-to-br from-gray-50 via-violet-50 to-gray-100">
 			<div className="relative">

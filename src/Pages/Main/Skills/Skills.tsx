@@ -1,10 +1,10 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import SkillCard from "./SkillCard";
 import { skills } from "../../../data/skills";
 import { useInView } from "framer-motion";
 
-const Skills = () => {
-	const ref = useRef(null);
+const Skills: React.FC = () => {
+	const ref = useRef<HTMLElement>(null);
 	const isInView = useInView(ref, { once: true });
 
 	return (

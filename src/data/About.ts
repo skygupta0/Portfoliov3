@@ -1,4 +1,6 @@
-export const about = {
+import type { About } from "../types";
+
+export const about: About = {
 	firstName: "Akash",
 	lastName: "Gupta",
 	gender: "male",

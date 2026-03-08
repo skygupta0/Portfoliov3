@@ -4,15 +4,15 @@ import { CgFileDocument } from "react-icons/cg";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { Link as RouterLink } from "react-router-dom";
 import { Link } from "react-scroll";
 import { useInView } from "framer-motion";
 import { about } from "../../../data/About";
 import memoji from "../../../data/assets/memoji2.png"
 
-const About = () => {
-	const ref = useRef(null);
+const About: React.FC = () => {
+	const ref = useRef<HTMLElement>(null);
 	const isInView = useInView(ref, { once: true });
 
 	return (
@@ -25,9 +25,9 @@ const About = () => {
 
 			<div className="relative flex flex-col items-center w-full sm:w-2/3 lg:w-1/3 xl:w-1/4">
 				<div className="w-2/3 overflow-hidden lg:w-full"
-					style={about.secondaryProfileImage && {
+					style={about.secondaryProfileImage ? {
 						borderRadius: "55% 45% 42% 58% / 55% 59% 41% 45%"
-					}}>
+					} : undefined}>
 					<img className="object-cover w-full h-full"
 						src={about.secondaryProfileImage ?? memoji}
 						alt="pfp" />
@@ -173,7 +173,7 @@ const About = () => {
 						opacity: isInView ? 1 : 0,
 						transition: "all 1.4s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s"
 					}}
-					to={about.socialLinks.github}
+					to={about.socialLinks.github ?? "#"}
 					target="_blank"
 					className="p-2 duration-500 hover:shadow-slate-400 rounded-full shadow-lg bg-slate-800 hover:rotate-6 text-slate-50 focus:outline-none focus:outline-slate-500"
 				>

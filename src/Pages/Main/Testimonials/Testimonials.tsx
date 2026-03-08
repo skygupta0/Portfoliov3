@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import TestimonialCard from "./Components/TestimonialCard";
 import { testimonials } from "../../../data/Testimonials";
 import arrow from "../../../data/assets/arrow.svg";
@@ -11,8 +11,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { useInView } from "framer-motion";
 
-const Testimonials = () => {
-	const ref = useRef(null);
+const Testimonials: React.FC = () => {
+	const ref = useRef<HTMLElement>(null);
 	const isInView = useInView(ref, { once: true });
 
 	return (
@@ -78,17 +78,6 @@ const Testimonials = () => {
 				})}
 
 			</Swiper>
-
-			{/* <Marquee
-				autoFill={true}
-				gradient={screen.width >= 768 && true}
-				pauseOnClick={true}
-				className="my-10"
-			>
-				{testimonials.map((testimonial, key) => {
-					return <TestimonialCard key={key} testimonial={testimonial} />;
-				})}
-			</Marquee> */}
 
 			<div className="absolute flex-col items-center hidden xl:flex left-20 top-24 -rotate-12 text-slate-400">
 				<p>

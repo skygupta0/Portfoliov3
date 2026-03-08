@@ -1,13 +1,12 @@
 import { HiOutlineChatAlt2 } from "react-icons/hi";
 import { AiOutlineTwitter } from "react-icons/ai";
-import React from "react";
 import { AiFillGithub, AiOutlineInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { about } from "../data/About";
 import memoji from "../data/assets/memoji1.png"
 
-const Footer = () => {
+const Footer: React.FC = () => {
 	return (
 		<section className="text-premium-textMuted mt-20">
 			<div className="flex flex-col items-center gap-8 justify-center pb-20 text-center px-4 sm:px-8">

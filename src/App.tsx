@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Footer from "./Global/Footer";
 import { Route, Routes } from "react-router-dom";
 import Main from "./Pages/Main";
 
-const App = () => {
+const App: React.FC = () => {
 	const animationPlayed = sessionStorage.getItem('animationPlayed') || false;
 
 	useEffect(() => {

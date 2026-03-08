@@ -1,10 +1,9 @@
-import { BsDot } from "react-icons/bs";
 import { useInView } from "framer-motion";
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { experience } from "../../../data/experience";
 
-const Experience = () => {
-	const ref = useRef(null);
+const Experience: React.FC = () => {
+	const ref = useRef<HTMLDivElement>(null);
 	const isInView = useInView(ref, { once: true });
 
 	return (

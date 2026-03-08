@@ -1,12 +1,21 @@
 import { AiOutlineLink } from "react-icons/ai";
-import { HiOutlineExternalLink } from "react-icons/hi";
 import { IoIosClose } from "react-icons/io";
-import React, { useState } from "react";
+import { useState } from "react";
 import { AiFillGithub } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import type { Project } from "../types";
 
-const ProjectCard = ({ project, styles, initials }) => {
+interface ProjectCardProps {
+	project: Project;
+	styles?: React.CSSProperties;
+	initials?: {
+		translateY?: number;
+		opacity?: number;
+	};
+}
+
+const ProjectCard: React.FC<ProjectCardProps> = ({ project, styles, initials }) => {
 	const [open, setOpen] = useState(false);
 	const screenTouch = window.matchMedia("(pointer: coarse)").matches
 

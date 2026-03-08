@@ -1,4 +1,6 @@
-export const skills = [
+import type { Skill } from "../types";
+
+export const skills: Skill[] = [
 	{
 		skillIcon:
 			"https://res.cloudinary.com/sushain/image/upload/v1674668115/Portfolio/skills/html_mcptab.svg",
