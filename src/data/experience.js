@@ -2,7 +2,7 @@ export const experience = [
 	{
 		companyName: "Remiges Technology Pvt. Ltd.",
 		companyLogo:
-			"https://res.cloudinary.com/akash/image/upload/v1696175985/Portfolio/exp/Untitled_design_6_d8u4nv.png", // Keeping a generic logo placeholder, can be updated later
+			"https://res.cloudinary.com/sushain/image/upload/v1696175985/Portfolio/exp/Untitled_design_6_d8u4nv.png", // Keeping a generic logo placeholder, can be updated later
 		jobRole: "React Developer — (CERSAI Project, Protean eGov)",
 		duration: "Jan 2026 – Present",
 		techstack: ["React 19", "TypeScript", "Vite", "Material UI (MUI)"],
@@ -20,7 +20,7 @@ export const experience = [
 	{
 		companyName: "Remiges Technology Pvt. Ltd.",
 		companyLogo:
-			"https://res.cloudinary.com/akash/image/upload/v1696175985/Portfolio/exp/Untitled_design_6_d8u4nv.png", // Keeping the same generic placeholder for the same company
+			"https://res.cloudinary.com/sushain/image/upload/v1696175985/Portfolio/exp/Untitled_design_6_d8u4nv.png", // Keeping the same generic placeholder for the same company
 		jobRole: "Angular Developer",
 		duration: "April 2024 – December 2025",
 		techstack: ["Angular", "RxJS", "Reactive Forms", "TypeScript"],

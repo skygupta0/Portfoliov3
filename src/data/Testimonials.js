@@ -2,7 +2,7 @@ export const testimonials = [
 	{
 		name: "Vikram Mali",
 		profile:
-			"https://res.cloudinary.com/akash/image/upload/v1735736370/Portfolio/testimonials/1638351431895_c57iuo.jpg",
+			"https://res.cloudinary.com/sushain/image/upload/v1735736370/Portfolio/testimonials/1638351431895_c57iuo.jpg",
 		gender: "male",
 		type: "colleagues",
 		country: "India",
@@ -13,7 +13,7 @@ export const testimonials = [
 	{
 		name: "Mayuri Kolhe",
 		profile:
-			"https://res.cloudinary.com/akash/image/upload/v1735736370/Portfolio/testimonials/1721955725450_teonhy.jpg",
+			"https://res.cloudinary.com/sushain/image/upload/v1735736370/Portfolio/testimonials/1721955725450_teonhy.jpg",
 		type: "other",
 		gender: "female",
 		country: "India",
@@ -25,7 +25,7 @@ export const testimonials = [
 	{
 		name: "Vinay Kumar",
 		profile:
-			"https://res.cloudinary.com/akash/image/upload/v1735736370/Portfolio/testimonials/1597308514744_jxljf0.jpg",
+			"https://res.cloudinary.com/sushain/image/upload/v1735736370/Portfolio/testimonials/1597308514744_jxljf0.jpg",
 		type: "client",
 		gender: "male",
 		country: "India",
@@ -36,7 +36,7 @@ export const testimonials = [
 	{
 		name: "Divyanshu Vashu",
 		profile:
-			"https://res.cloudinary.com/akash/image/upload/v1735736370/Portfolio/testimonials/1684409177741_du4yg1.jpg",
+			"https://res.cloudinary.com/sushain/image/upload/v1735736370/Portfolio/testimonials/1684409177741_du4yg1.jpg",
 		type: "student",
 		gender: "male",
 		country: "India",
@@ -48,7 +48,7 @@ export const testimonials = [
 	{
 		name: "Vikram Mali",
 		profile:
-			"https://res.cloudinary.com/akash/image/upload/v1735736370/Portfolio/testimonials/1638351431895_c57iuo.jpg",
+			"https://res.cloudinary.com/sushain/image/upload/v1735736370/Portfolio/testimonials/1638351431895_c57iuo.jpg",
 		gender: "male",
 		type: "colleagues",
 		country: "India",
@@ -59,7 +59,7 @@ export const testimonials = [
 	{
 		name: "Mayuri Kolhe",
 		profile:
-			"https://res.cloudinary.com/akash/image/upload/v1735736370/Portfolio/testimonials/1721955725450_teonhy.jpg",
+			"https://res.cloudinary.com/sushain/image/upload/v1735736370/Portfolio/testimonials/1721955725450_teonhy.jpg",
 		type: "other",
 		gender: "female",
 		country: "India",
@@ -70,7 +70,7 @@ export const testimonials = [
 	{
 		name: "Vinay Kumar",
 		profile:
-			"https://res.cloudinary.com/akash/image/upload/v1735736370/Portfolio/testimonials/1597308514744_jxljf0.jpg",
+			"https://res.cloudinary.com/sushain/image/upload/v1735736370/Portfolio/testimonials/1597308514744_jxljf0.jpg",
 		type: "client",
 		gender: "male",
 		country: "India",
@@ -81,7 +81,7 @@ export const testimonials = [
 	{
 		name: "Divyanshu Vashu",
 		profile:
-			"https://res.cloudinary.com/akash/image/upload/v1735736370/Portfolio/testimonials/1684409177741_du4yg1.jpg",
+			"https://res.cloudinary.com/sushain/image/upload/v1735736370/Portfolio/testimonials/1684409177741_du4yg1.jpg",
 		type: "student",
 		gender: "male",
 		country: "India",

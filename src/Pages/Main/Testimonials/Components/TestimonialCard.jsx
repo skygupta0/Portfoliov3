@@ -17,7 +17,7 @@ const TestimonialCard = ({ testimonial }) => {
 								? testimonial.profile
 								: testimonial.gender.toLowerCase() === "male"
 									? "https://res.cloudinary.com/dkezwrb3a/image/upload/akash/Portfolio/testimonials/Number117_vnezod.svg"
-									: "https://res.cloudinary.com/akash/image/upload/v1694551283/Portfolio/testimonials/Number117_io2wji.svg"
+									: "https://res.cloudinary.com/sushain/image/upload/v1694551283/Portfolio/testimonials/Number117_io2wji.svg"
 						}
 						alt="pfp"
 					/>
@@ -26,7 +26,7 @@ const TestimonialCard = ({ testimonial }) => {
 				<div className="absolute right-0 w-5 h-5 overflow-hidden bottom-5">
 					<img
 						className="object-cover w-full h-full"
-						src="https://res.cloudinary.com/akash/image/upload/v1725738488/india_zkbhzr.png"
+						src="https://res.cloudinary.com/sushain/image/upload/v1725738488/india_zkbhzr.png"
 						alt="flag"
 					/>
 

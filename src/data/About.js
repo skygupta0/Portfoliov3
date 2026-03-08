@@ -2,11 +2,11 @@ export const about = {
 	firstName: "Akash",
 	lastName: "Gupta",
 	gender: "male",
-	logo: "https://res.cloudinary.com/akash/image/upload/v1694897056/Portfolio/logo_ly8elg.png",
+	logo: "https://res.cloudinary.com/sushain/image/upload/v1694897056/Portfolio/logo_ly8elg.png",
 	// primaryProfileImage:
-	// "https://res.cloudinary.com/akash/image/upload/v1694956988/Portfolio/image_23_1_ky1bkw.png",
+	// "https://res.cloudinary.com/sushain/image/upload/v1694956988/Portfolio/image_23_1_ky1bkw.png",
 	// secondaryProfileImage:
-	// "https://res.cloudinary.com/akash/image/upload/v1694690201/Portfolio/Untitled_design_2_sxfvbm.png",
+	// "https://res.cloudinary.com/sushain/image/upload/v1694690201/Portfolio/Untitled_design_2_sxfvbm.png",
 	email: "skygupta0@gmail.com",
 	shortDesc:
 		"Front-End Developer experienced in building web applications for the FinTech and KYC/CKYC domains using React and Angular.",
