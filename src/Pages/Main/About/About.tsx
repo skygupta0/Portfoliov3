@@ -112,7 +112,7 @@ const About: React.FC = () => {
 					<p className="my-3 text-lg leading-relaxed relative z-10">
 						I'm a <span className="font-semibold text-premium-textMain">Front-End Developer</span> with over 2 years of experience building web applications for the FinTech and KYC/CKYC domains. I specialize in{" "}
 						<span className="font-semibold text-premium-primary">
-							React (with TypeScript and Vite) and Angular
+							Angular and React (with TypeScript and Vite)
 						</span>
 						. I enjoy solving complex UI logic, building reusable components, and tackling large forms with tricky validation rules.
 						<Link

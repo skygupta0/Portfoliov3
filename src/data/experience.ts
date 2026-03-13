@@ -5,18 +5,17 @@ export const experience: Experience[] = [
 		companyName: "Remiges Technology Pvt. Ltd.",
 		companyLogo:
 			"https://res.cloudinary.com/sushain/image/upload/v1696175985/Portfolio/exp/Untitled_design_6_d8u4nv.png", // Keeping a generic logo placeholder, can be updated later
-		jobRole: "React Developer — (CERSAI Project, Protean eGov)",
+		jobRole: "React Developer — (CERSAI / Protean eGov)",
 		duration: "Jan 2026 – Present",
 		techstack: ["React 19", "TypeScript", "Vite", "Material UI (MUI)"],
 		description: [
-			"Architecting and building the frontend for the CKYCRR 2.0 Portal from scratch using React 19, TypeScript, and Vite.",
-			"Engineered a configuration-driven dynamic form system rendering UI screens based on JSON configurations, significantly reducing development time for new flows.",
-			"Led the migration of registration and status-tracking workflows from legacy CMS to a modern React architecture.",
-			"Implemented complex, interconnected form validations for user profiles, ensuring stringent cross-field checks such as matching GSTIN with PAN.",
-			"Enhanced administrative portal security by refactoring permission checks for bulk operations to rely on robust group-level memberships.",
-			"Resolved critical UX issues, including cross-tab OTP timer synchronization and secure file upload previews.",
-			"Integrated data masking for PII (Aadhaar, PAN) and automated input formatting.",
-			"Extensively customized Material UI (MUI) components to resolve styling inconsistencies and improve structural aesthetics.",
+			"Modernized the CKYCRR 2.0 Portal by migrating the legacy build pipeline to Vite with vendor chunk splitting and lazy loading — delivering a significantly faster initial load time.",
+			"Built a configuration-driven dynamic form engine that renders complex multi-step onboarding workflows (RE Registration, Nodal Officer) entirely from JSON configs, enabling zero-code workflow changes.",
+			"Built a Bulk Operations management module — file uploads, real-time processing status, advanced filtering, and full CRUD — used by admins to manage large-scale regulatory records.",
+			"Implemented robust regulatory validation: PAN/GSTIN verification, Aadhaar masking, and cross-tab OTP timer persistence to ensure secure and compliant form submissions.",
+			"Developed reusable components (e.g., LabeledTextFieldWithUpload) with integrated validation, dynamic file preview, and document management capabilities.",
+			"Optimized rendering performance using React.memo, custom hooks, and controlled state updates to minimize unnecessary re-renders.",
+			"Built Region and Branch merging workflows with confirmation dialogs, validation safeguards, and visual status indicators."
 		],
 	},
 	{
@@ -24,16 +23,15 @@ export const experience: Experience[] = [
 		companyLogo:
 			"https://res.cloudinary.com/sushain/image/upload/v1696175985/Portfolio/exp/Untitled_design_6_d8u4nv.png", // Keeping the same generic placeholder for the same company
 		jobRole: "Angular Developer",
-		duration: "April 2024 – December 2025",
+		duration: "Apr 2024 – Dec 2025",
 		techstack: ["Angular", "RxJS", "Reactive Forms", "TypeScript"],
 		description: [
-			"Contributed to a large-scale KYC Registration Platform (NDML KRA) to streamline regulatory onboarding workflows.",
-			"Developed an advanced multi-step form system leveraging Angular's Reactive Forms to manage complex user registration logic.",
-			"Utilized RxJS observables to persist form drafts locally, mitigating data loss during session expirations or unexpected exits.",
-			"Designed and implemented a library of reusable UI components, optimizing the development lifecycle for new forms.",
-			"Engineered a generic, highly-configurable filtering tool integrated across diverse data tables within the admin dashboard.",
-			"Optimized application performance and load times by implementing lazy loading modules, OnPush change detection, and specialized HTTP interceptors.",
-			"Collaborated closely with backend teams to negotiate API contracts and ensure robust client-side error handling.",
+			"Contributed to the NDML KRA platform, a regulated KYC onboarding system used by financial institutions for investor registration and compliance workflows.",
+			"Built complex multi-step dynamic forms with Angular Reactive Forms — supporting conditional validation, modular form groups, and deeply nested field logic.",
+			"Implemented RxJS-based draft persistence, allowing users to save and resume partial registrations without data loss.",
+			"Designed a generic table filtering and search system reused across multiple administrative dashboards, reducing duplicated logic significantly.",
+			"Optimized app performance via lazy loading, Angular OnPush change detection, and API request management through HTTP interceptors.",
+			"Partnered closely with backend engineers to define API contracts, ensuring accurate validation, consistent error handling, and smooth integration."
 		],
 	},
 ];

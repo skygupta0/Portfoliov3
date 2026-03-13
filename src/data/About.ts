@@ -11,10 +11,10 @@ export const about: About = {
 	// "https://res.cloudinary.com/sushain/image/upload/v1694690201/Portfolio/Untitled_design_2_sxfvbm.png",
 	email: "skygupta0@gmail.com",
 	shortDesc:
-		"Front-End Developer experienced in building web applications for the FinTech and KYC/CKYC domains using React and Angular.",
+		"Frontend Developer with 2+ years of experience building production-grade web applications in the FinTech and KYC/CKYC domains using Angular, React, and TypeScript.",
 	longDesc: [
-		"I'm a Front-End Developer with over 2 years of experience building web applications for the FinTech and KYC/CKYC domains. I specialize in React (with TypeScript and Vite) and Angular. I enjoy solving complex UI logic, building reusable components, and tackling large forms with tricky validation rules.",
-		"I have hands-on experience moving legacy pages to modern frameworks and working closely with backend teams to build great user experiences.",
+		"Frontend Developer with 2+ years of experience building production-grade web applications in the FinTech and KYC/CKYC domains using Angular, React, and TypeScript.",
+		"Specialized in dynamic form workflows, reusable UI component libraries, and scalable Single Page Applications. Passionate about performance optimization, clean architecture, and delivering intuitive regulatory onboarding experiences."
 	],
 	socialLinks: {
 		linkedin: "https://linkedin.com/in/skygupta0",

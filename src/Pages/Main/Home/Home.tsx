@@ -60,7 +60,7 @@ const Home: React.FC = () => {
 					<p className="w-full font-light text-premium-textMuted text-lg sm:text-xl md:text-2xl leading-relaxed">
 						A <span className="text-premium-primary font-medium">Front-End Developer</span> specializing in 
 						crafting modern, high-performance web applications with 
-						<span className="text-white font-medium"> React</span> and <span className="text-white font-medium">Angular</span>.
+						<span className="text-white font-medium"> Angular</span> and <span className="text-white font-medium">React</span>.
 					</p>
 
 					<div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6">
