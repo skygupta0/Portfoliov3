@@ -22,7 +22,6 @@ export const about: About = {
 		instagram: "https://www.instagram.com/its_sky_gupta_ai",
 		// twitter: "",
 	},
-	resumeLink:
-		"", // Link needs to be updated manually if available
+	resumeLink: "/AkashG_Resume.pdf",
 	hostedUrl: "https://akashgupta.vercel.app", // Placeholder, you can update it later
 };
