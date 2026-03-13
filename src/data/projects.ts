@@ -55,4 +55,12 @@ export const projects: Project[] = [
 		Techstack: "ReactJs, Tailwind CSS, Python (For OCR)",
 		Title: "VoterList Pro: Electoral List Data Extraction",
 	},
+	{
+		Github: "",
+		ImageUrl: "/DeepMobileCRM.png", 
+		Library: "Angular Material, RxJS", 
+		ProjectLink: "https://deepmobile.shop",
+		Techstack: "Angular, TypeScript, SCSS",
+		Title: "Advanced Parts Tracking (DeepMobileCRM)",
+	},
 ];
