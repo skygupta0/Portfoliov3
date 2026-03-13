@@ -9,14 +9,14 @@ export default {
 			},
 			colors: {
 				premium: {
-					bg: "#0B0F19",
-					surface: "#111827",
-					border: "#1F2937",
-					primary: "#38bdf8", // Sky 400
-					secondary: "#818cf8", // Indigo 400
-					accent: "#2dd4bf", // Teal 400
-					textMain: "#f8fafc", // Slate 50
-					textMuted: "#94a3b8", // Slate 400
+					bg: "#0f172a", // Slate 900 main background
+					surface: "#1e293b", // Slate 800 surface
+					border: "#334155", // Slate 700 border
+					primary: "#0ea5e9", // Sky 500 main brand
+					secondary: "#0284c7", // Sky 600 secondary
+					accent: "#f43f5e", // Rose 500 accent
+					textMain: "#f8fafc", // Slate 50 text
+					textMuted: "#cbd5e1", // Slate 300 muted text
 				}
 			},
 			backgroundImage: {
